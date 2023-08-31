@@ -60,7 +60,7 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 2vw;
+    font-size: 3vw;
 }
 
 section > p {
@@ -70,6 +70,7 @@ section > p {
 section.normal {
     background-color: white;
     color: black;
+    text-align: center;
 }
 
 section.imagem {
@@ -80,20 +81,43 @@ section.imagem {
     background-attachment: fixed;
 }
 
+section > div > img {
+    background-image: url(imagens/magnelson-foto.jpeg);
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+    margin: auto;
+    display: block;
+    margin-bottom: 50px;
+}
+
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(0, 0, 0, 0.527);
     display: inline-block;
     padding: 0px;
-    text-shadow: 1px 1px 0px black;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.507);
     border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 2.3vw;
 }
 
 section#img01 {
     background-image: url(imagens/aposentado.jpg);
-    background-position: center right;
+    background-position: center center;
     
     
 }
+
+section.normal > a:hover {
+    color: crimson;
+}
+
+section.normal > a {
+    text-decoration: none;
+    color: brown;
+}
+
 
 
 
