@@ -15,6 +15,7 @@
     margin: 0px;
     padding: 0px;
     font-size: 1em;
+    text-align: center;
     
 }
 
@@ -60,12 +61,21 @@ section {
     line-height: 2em;
     padding-left: 30px;
     font-family: var(--fonte3);
-    font-size: 4vw;
+    font-size: 2.5vh;
+   
 }
 
-section > p {
-    padding-bottom: 1em;
+
+
+section.normal > h3 {
+    padding-top: 20px;
+    
+    text-align: center;
+    font-size: 3vh;
+    color: darkslategrey;
+    font-family: var(--fonte1);
 }
+
 
 section.normal {
     background-color: white;
@@ -74,11 +84,11 @@ section.normal {
 }
 
 section.imagem {
-    background-color: rgba(0, 0, 0, 0.781);
+    background-color: white;
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.514);
-    background-size: cover;
-    background-attachment: fixed;
+    padding: 96.4px;
+    
 }
 
 section > div > img {
@@ -92,33 +102,47 @@ section > div > img {
 }
 
 section.imagem > p {
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgba(0, 0, 0, 0.644);
     display: inline-block;
-    padding: 0px;
+    
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.507);
     border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 2.3vw;
+    font-size: 1.5em;
+    margin: auto;
+    
+    padding: 15px;
 }
 
 section#img01 {
     background-image: url(imagens/aposentado.jpg);
     background-position: center center;
-    
+    margin: auto;
     
 }
 
 section.normal > a:hover {
-    color: crimson;
+    color: red;
 }
 
 section.normal > a {
     text-decoration: none;
     color: brown;
+    font-size: 3em;
+    margin: auto;
+}
+
+section.imagem > p > a {
+    color: rgb(3, 218, 3);
+    font-size: 2.5vh;
+    text-decoration: none;
+    font-family: var(--fonte1);
 }
 
 
+section.imagem > p > a:hover {
+    color: greenyellow;
+    text-decoration: none;
+}
 
 
 footer {
@@ -126,4 +150,12 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    text-decoration: none;
 }
+
+footer > p {
+    color: white;
+    font-size: 2em;
+text-decoration: none;
+}
+
