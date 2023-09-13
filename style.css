@@ -144,6 +144,30 @@ section.imagem > p > a:hover {
     text-decoration: none;
 }
 
+article {
+    background-color: white;
+    color: darkslategray;
+    padding: 5em;
+}
+
+article h3 {
+    font-family: var(--fonte3);
+    font-size: 1.5em;
+}
+
+article > a:hover {
+    color: red;
+}
+
+article > a {
+    text-decoration: none;
+    color: brown;
+    font-size: 3em;
+    text-align: center;
+    font-family: var(--fonte3);
+    
+}
+
 
 footer {
     background-color: black;
