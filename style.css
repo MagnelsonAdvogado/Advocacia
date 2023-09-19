@@ -65,11 +65,14 @@ section {
    
 }
 
-
+section.normal > h2 {
+    font-size: 3em;
+    padding-bottom: 20px;
+    color: darkcyan;
+}
 
 section.normal > h3 {
-    padding-top: 20px;
-    
+    padding-top: 20px;  
     text-align: center;
     font-size: 3vh;
     color: darkslategrey;
@@ -127,7 +130,7 @@ section.normal > a:hover {
 section.normal > a {
     text-decoration: none;
     color: brown;
-    font-size: 3em;
+    font-size: 2em;
     margin: auto;
 }
 
