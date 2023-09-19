@@ -79,6 +79,12 @@ section.normal > h3 {
     font-family: var(--fonte1);
 }
 
+section.normal > h4 {
+    font-size: 1.5em;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    color: darkslategrey;
+}
 
 section.normal {
     background-color: white;
