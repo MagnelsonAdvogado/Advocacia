@@ -123,7 +123,7 @@ section.imagem > p {
 }
 
 section#img01 {
-    background-image: url(imagens/aposentado.jpg);
+    background-image: url(../imagens/aposentado.jpg);
     background-position: center center;
     margin: auto;
     
