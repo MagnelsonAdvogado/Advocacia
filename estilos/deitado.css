@@ -28,7 +28,7 @@ html, body {
 
 header {
 
-    background-color: black;
+    background-color: #017CA6;
     color: white;
     text-align: center;
 
@@ -43,6 +43,8 @@ header > h1 {
 
 header > p {
     padding-bottom: 50px;
+    color: #FFD900;
+    font-size: large;
 }
 
 header a, footer a {
@@ -67,7 +69,7 @@ section {
 section.normal > h2 {
     font-size: 3em;
     padding-bottom: 20px;
-    color: darkcyan;
+    color: #017CA6;
     padding-right: 35px;
 }
 
@@ -85,13 +87,13 @@ section.normal > h4 {
     font-size: 2em;
     padding-top: 50px;
     padding-bottom: 5px;
-    color: darkslategrey;
+    color: #017CA6;
     padding-right: 35px;
     padding-bottom: 20px;
 }
 
 section.normal {
-    background-color: white;
+    background-color: whitesmoke;
     color: black;
     text-align: center;
 }
@@ -127,7 +129,7 @@ section.imagem > p {
 }
 
 section > h3 > b {
-    color: darkcyan;
+    color: #FFD900;
 }
 
 section#img01 {
@@ -163,7 +165,7 @@ section.imagem > p > a:hover {
 }
 
 article {
-    background-color: white;
+    background-color: whitesmoke;
     color: darkslategray;
     padding: 5em;
 }
@@ -188,12 +190,12 @@ article > a {
 }
 
 article > h3 > b {
-    color: darkcyan;
+    color: #017CA6;
 }
 
 article > h3 > b#especialista {
     font-size: 1em;
-    color: darkcyan;
+    color: #017CA6;
     font-family: var(--fonte3);
 }
 
